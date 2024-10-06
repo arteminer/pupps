@@ -1,10 +1,10 @@
 @font-face {
     font-family: "Windows Xp Tahoma";
-    src: url("assets/windows-xp-tahoma.ttf");
+    src: url("./assets/windows-xp-tahoma.ttf");
   }
 
 *{
-    cursor: url(/images/aero_arrow.cur), auto;
+    cursor: url("./images/aero_arrow.cur"), auto;
 
     text-decoration: none;
     list-style: none;
@@ -55,7 +55,7 @@
     width: 100%;
     height: 260px;
 
-    background-image: url(/images/main-info.png);
+    background-image: url("./images/main-info.png");
     background-size: contain;
     background-repeat: no-repeat;
 
@@ -89,7 +89,7 @@
 .tab-about{
     width: 100%;
     height: 570px;
-    background-image: url(/images/tab-aboutbg.png);
+    background-image: url("./images/tab-aboutbg.png");
     background-size: contain;
 
     border: 2px solid #fff;
@@ -102,7 +102,7 @@
     justify-content: center;
     align-items: center;
 
-    background-image: url(/images/needy.gif);
+    background-image: url("./images/needy.gif");
     background-size: 63%;
     background-repeat: no-repeat;
     background-position: center;
@@ -130,13 +130,13 @@
 
 .tab-btn:hover{
     background-color: rgb(63, 63, 63);
-    cursor: url("/images/aero_link.cur"), pointer;
+    cursor: url("./images/aero_link.cur"), pointer;
 }
 
 .tab-banner{
     width: 100%;
     height: 170px;
-    background-image: url(/images/something.png);
+    background-image: url("./images/something.png");
     background-size: contain;
 }
 
@@ -158,14 +158,14 @@
 }
 
 .banner1{
-    background-image: url(/images/banner1.png);
+    background-image: url("./images/banner1.png");
 }
 
 .monkey{
     height: 180px;
     width: 180px;
 
-    background-image: url("/images/monkey.png");
+    background-image: url("./images/monkey.png");
     background-size: contain;
     background-repeat: no-repeat;
 
@@ -175,14 +175,14 @@
 }
 
 .banner2{
-    background-image: url("/images/banner2.png");
+    background-image: url("./images/banner2.png");
 }
 
 .click{
     width: 60px;
     height: 70px;
 
-    background-image: url("/images/click.gif");
+    background-image: url("./images/click.gif");
     background-size: contain;
 
     position: absolute;
@@ -221,44 +221,44 @@
 
 .btn:hover{
     box-shadow: inset 0 0 16px 20px rgba(255, 255, 255, 0.25), 0 4px 4px 0 rgba(0, 0, 0, 0.25);
-    cursor: url("/images/aero_link.cur"), pointer;
+    cursor: url("./images/aero_link.cur"), pointer;
 }
 
 .spotify{
     background-size: 101%;
     color: #fff;
-    background-image: url("/images/btn-bg/Spotify.gif");
+    background-image: url("./images/btn-bg/Spotify.gif");
 }
 
 .soundcloud{
-    background-image: url("/images/btn-bg/soundcloud.gif");
+    background-image: url("./images/btn-bg/soundcloud.gif");
 }
 
 .discord{
-    background-image: url("/images/btn-bg/discord.gif");
+    background-image: url("./images/btn-bg/discord.gif");
 }
 
 .telegram{
-    background-image: url("/images/btn-bg/telegram.gif");
+    background-image: url("./images/btn-bg/telegram.gif");
 }
 
 .steam{
     color: white;
-    background-image: url("/images/btn-bg/steam.gif");
+    background-image: url("./images/btn-bg/steam.gif");
 }
 
 .donalerts{
     color: #fff;
-    background-image: url("/images/btn-bg/donalerts.gif");
+    background-image: url("./images/btn-bg/donalerts.gif");
 }
 
 .vk{
-    background-image: url("/images/btn-bg/vk.gif");
+    background-image: url("./images/btn-bg/vk.gif");
 }
 
 .pinterest{
     color: #fff;
-    background-image: url("/images/btn-bg/pinterest.gif");
+    background-image: url("./images/btn-bg/pinterest.gif");
 }
 
 
