@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+
+    <div class="body_box">
+
+        <div class="body_tab">
+
+            <div class="tab-info">
+                <img class="logo" src="/images/ava.png">
+                <div class="text">
+                    <h1>im puups</h1>
+                    <p>kill yourself kill yourself kill yourself kill yourself kill yourself kill yourself kill yourself kill yourself </p>
+                </div>
+            </div>
+
+            <div class="tab-about">
+                <div class="tab-about-gif">
+                    <div class="tab-btn">Main</div>
+                    <div class="tab-btn">About</div>
+                    <div class="tab-btn">Dm me</div>
+                </div>
+            </div>
+
+            <div class="tab-banner"></div>
+        </div>
+
+        <div class="body_btns">
+            <div class="banner banner1"></div>
+
+            <div class="monkey"></div>
+
+            <div class="btns">
+                <div class="btn spotify">Spotify</div>
+                <div class="btn soundcloud">Soundcloud</div>
+                <div class="btn discord">Discord</div>
+                <div class="btn telegram">Telegrrr</div>
+                <div class="btn steam">Steam</div>
+                <div class="btn donalerts">DonAlerts</div>
+                <div class="btn vk">Vkontakte</div>
+                <div class="btn pinterest">Pinterest</div>
+            </div>
+
+            <div class="banner banner2"> <div class="click"></div> </div>
+        </div>
+    </div>
+
+    
+    <div id="app"></div>
+    <script src="https://unpkg.com/webamp"></script>
+    <script>
+        const app = document.getElementById("app")
+        const webamp = new Webamp({
+        initialTracks: [
+            {
+                metaData: {
+                artist: "конец солнечных дней",
+                title: "ащ-ащ!",
+                },
+                url: "/music/achach.mp3"
+            },
+            {
+                metaData: {
+                artist: "shit shit shit!",
+                title: "Калифорния",
+                },
+                url: "/music/californy.mp3"
+            },
+            {
+                metaData: {
+                artist: "CUPSIZE",
+                title: "Они все дрочат на тебя в интернете",
+                },
+                url: "/music/they.mp3"
+            }
+            ],
+        initialSkin: { url: '/assets/makemesad.wsz' },
+        });
+        webamp.renderWhenReady(app);
+    </script>
+
+    <script src="/poke.js"></script>
+</body>
+</html>

@@ -1,0 +1,297 @@
+@font-face {
+    font-family: "Windows Xp Tahoma";
+    src: url("assets/windows-xp-tahoma.ttf");
+  }
+
+*{
+    cursor: url(/images/aero_arrow.cur), auto;
+
+    text-decoration: none;
+    list-style: none;
+
+    margin: 0;
+}
+
+#sprite{
+    z-index: 9999 !important;
+}
+
+#webamp{
+    z-index: 999 !important;
+}
+
+.body_box{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    margin-left: auto;
+    margin-right: auto;
+    
+    height: 150%;
+    width: 100%;
+
+    background-image: radial-gradient(65.00% 65.00% at 50% 46%,rgb(196, 8, 200),rgb(103, 10, 105) 100%);
+}
+
+.body_tab{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    height: 100%;
+    width: 400px;
+    box-shadow: 1px 0 20px 15px rgba(255, 255, 255, 0.25);
+
+    background-color: #770A65;
+}
+
+.tab-info{
+    border-radius: 5px;
+
+    gap: 15px;
+
+    width: 100%;
+    height: 260px;
+
+    background-image: url(/images/main-info.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo{
+    height: 136px;
+    width: 136px;
+}
+
+.text{
+    display: flex;
+    flex-direction: column;
+}
+
+.text>h1{
+    font-weight: 500;
+    font-family: "Windows Xp Tahoma";
+    font-size: 36px;
+}
+
+.text>p{
+    font-family: "Windows Xp Tahoma";
+    font-size: 20px;
+    width: 170px;
+}
+
+.tab-about{
+    width: 100%;
+    height: 570px;
+    background-image: url(/images/tab-aboutbg.png);
+    background-size: contain;
+
+    border: 2px solid #fff;
+}
+
+.tab-about-gif{
+    gap: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    background-image: url(/images/needy.gif);
+    background-size: 63%;
+    background-repeat: no-repeat;
+    background-position: center;
+
+    width: 99%;
+    height: 570px;
+} 
+
+.tab-btn{
+    font-size: 25px;
+    color: white;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background-color: black;
+    border: 1px solid #fff;
+
+    width: 260px;
+    height: 55px;
+
+    z-index: 5;
+}
+
+.tab-btn:hover{
+    background-color: rgb(63, 63, 63);
+    cursor: url("/images/aero_link.cur"), pointer;
+}
+
+.tab-banner{
+    width: 100%;
+    height: 170px;
+    background-image: url(/images/something.png);
+    background-size: contain;
+}
+
+.body_btns{
+    width: 900px;
+    height: 95%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.banner{
+    width: 100%;
+    height: 110px;
+
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.banner1{
+    background-image: url(/images/banner1.png);
+}
+
+.monkey{
+    height: 180px;
+    width: 180px;
+
+    background-image: url("/images/monkey.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+
+    position: absolute;
+
+    transform: translate(320%, 29%);
+}
+
+.banner2{
+    background-image: url("/images/banner2.png");
+}
+
+.click{
+    width: 60px;
+    height: 70px;
+
+    background-image: url("/images/click.gif");
+    background-size: contain;
+
+    position: absolute;
+
+    transform: translate(1250%, 60px);
+}
+
+.btns{
+    height: 60%;
+
+    display: flex;
+    gap: 39px;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.btn{
+    box-shadow: 0px 0px 15.9px 9px rgba(255, 255, 255, 0.25);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    font-style: italic;
+    font-size: 35px;
+    
+    width: 300px;
+    height: 90px;
+
+    border-radius: 21px;
+    
+
+    background-size: cover;
+    background-position: center;
+}
+
+.btn:hover{
+    box-shadow: inset 0 0 16px 20px rgba(255, 255, 255, 0.25), 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+    cursor: url("/images/aero_link.cur"), pointer;
+}
+
+.spotify{
+    background-size: 101%;
+    color: #fff;
+    background-image: url("/images/btn-bg/Spotify.gif");
+}
+
+.soundcloud{
+    background-image: url("/images/btn-bg/soundcloud.gif");
+}
+
+.discord{
+    background-image: url("/images/btn-bg/discord.gif");
+}
+
+.telegram{
+    background-image: url("/images/btn-bg/telegram.gif");
+}
+
+.steam{
+    color: white;
+    background-image: url("/images/btn-bg/steam.gif");
+}
+
+.donalerts{
+    color: #fff;
+    background-image: url("/images/btn-bg/donalerts.gif");
+}
+
+.vk{
+    background-image: url("/images/btn-bg/vk.gif");
+}
+
+.pinterest{
+    color: #fff;
+    background-image: url("/images/btn-bg/pinterest.gif");
+}
+
+
+
+
+::-webkit-scrollbar {
+    width: 16px;
+}
+::-webkit-scrollbar-button {
+    background-color: #ab9889;
+    background-size: 100%;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #424141;
+    border-top-color: #c0c0c0;
+    border-left-color: #c0c0c0;
+    box-shadow: inset 1px 1px #fff, inset -1px -1px #543223;
+}
+::-webkit-scrollbar-corner {
+    background: #c0c0c0;
+    background-image: url(https://files.catbox.moe/9n6e0r.gif);
+}
+::-webkit-scrollbar-thumb {
+    background-color: #ab9889;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #404040;
+    border-top-color: #c0c0c0;
+    border-left-color: #c0c0c0;
+    box-shadow: inset 1px 1px #fff, inset -1px -1px #764b39;
+}
+::-webkit-scrollbar-track {
+    background-size: 2px 2px;
+    background-image: url(https://files.catbox.moe/6w9af0.png);
+    background-color: transparent;
+}
